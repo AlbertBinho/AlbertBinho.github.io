@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemen Kofie - O Mundo do Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lemen Kofie</h1>
+        <nav>
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo ao Lemen Kofie, o lugar onde os amantes de café se encontram para desfrutar das melhores variedades de grãos e blends.</p>
+        <img src="coffee_shop.jpg" alt="Coffee Shop">
+    </section>
+    
+    <section id="menu" class="text-center">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <img src="coffee1.jpg" alt="Café 1">
+            <h3>Café Espresso</h3>
+            <p>Um café forte e encorpado para os amantes de sabores intensos.</p>
+        </div>
+        <div class="menu-item">
+            <img src="coffee2.jpg" alt="Café 2">
+            <h3>Café Latte</h3>
+            <p>Uma mistura perfeita de café expresso e leite vaporizado.</p>
+        </div>
+        <div class="menu-item">
+            <img src="coffee3.jpg" alt="Café 3">
+            <h3>Cappuccino</h3>
+            <p>Uma combinação equilibrada de café, leite e espuma de leite.</p>
+        </div>
+    </section>
+    </section>
+        <div class="menu-item">
+            <img src="coffee2.jpg" alt="Café 2">
+            <h3>Café Latte</h3>
+            <p>Uma mistura perfeita de café expresso e leite vaporizado.</p>
+        </div>
+        <div class="menu-item">
+            <img src="coffee3.jpg" alt="Café 3">
+            <h3>Cappuccino</h3>
+            <p>Uma combinação equilibrada de café, leite e espuma de leite.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Estamos ansiosos para ouvir de você. Entre em contato conosco através do formulário abaixo.</p>
+
+        <form action="enviar_email.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Lemen Kofie. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
