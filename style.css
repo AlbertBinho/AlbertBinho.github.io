@@ -302,8 +302,10 @@ section{
 .clube .row{
     display: flex;
     align-items: center;
-    background:#6d3e22;
-    flex-wrap: wrap;
+    background: #6d3e22;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
 }
 
 .clube.row .image{
