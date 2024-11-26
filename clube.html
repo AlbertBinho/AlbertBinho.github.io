@@ -35,26 +35,27 @@
       <div id="planInfo"></div>
       <button type="button" onclick="subscribe()">Confirmar Assinatura</button>
     </div>
-
-    <!-- Modal de Confirmação -->
-    <div id="modal" style="display:none;">
-      <div class="modal-content">
-        <p id="confirmation-text"></p>
-        <button onclick="closeModal()">Fechar</button>
-        <button onclick="showPaymentMethods()">Confirmar</button>
-      </div>
-    </div>
-
-    <!-- Modal de Pagamento -->
-    <div id="paymentModal" style="display:none;">
-      <h2>Escolha o Método de Pagamento</h2>
-      <button onclick="confirmPayment('Cartão de Crédito')">Cartão de Crédito</button>
-         <button onclick="confirmPayment('Cartão de Debito')">Cartão de Débito</button>
-      <button onclick="confirmPayment('Boleto Bancário')">Boleto Bancário</button>
-      <button onclick="confirmPayment('PIX')">PIX</button>
-      <button onclick="closePaymentModal()">Fechar</button>
-    </div>
+ <!-- Modal de Confirmação -->
+<div id="modal" style="display:none;">
+  <div class="modal-content">
+    <p id="confirmation-text"></p>
+    <button onclick="closeModal()">Fechar</button>
+    <button onclick="showPaymentMethods()">Confirmar</button>
   </div>
+</div>
+
+<!-- Modal de Pagamento -->
+<div id="paymentModal" style="display:none;">
+  <h2>Escolha o Método de Pagamento</h2>
+  <button onclick="confirmPayment('Cartão de Crédito')">Cartão de Crédito</button>
+  <button onclick="confirmPayment('Cartão de Débito')">Cartão de Débito</button>
+  <button onclick="confirmPayment('Boleto Bancário')">Boleto Bancário</button>
+  <button onclick="confirmPayment('PIX')">PIX</button>
+  <button onclick="closePaymentModal()">Fechar</button>
+</div>
+
+
+    
 
   <script src="clube.js"></script>
 </body>
