@@ -237,3 +237,40 @@ button:focus {
   outline: none;
   box-shadow: 0 0 5px rgba(72, 203, 88, 0.6);
 }
+
+
+/* Responsividade para telas pequenas e tablets */
+@media (max-width: 768px) {
+  .modal-content {
+    width: 80%; /* Modal ocupa mais da tela */
+    padding: 15px;
+  }
+
+  .modal-content button {
+    padding: 12px;
+    font-size: 0.9em; /* Fonte um pouco menor */
+  }
+
+  #paymentModal h2 {
+    font-size: 1.2em; /* Tamanho do título reduzido */
+  }
+}
+
+/* Responsividade para dispositivos móveis menores */
+@media (max-width: 480px) {
+  .modal-content {
+    width: 90%; /* Modal ocupa quase toda a tela */
+    padding: 10px;
+  }
+
+  .modal-content button {
+    padding: 10px;
+    font-size: 0.85em; /* Fonte ainda menor */
+  }
+
+  #paymentModal h2 {
+    font-size: 1.1em; /* Título ainda menor */
+  }
+}
+
+
